@@ -1,0 +1,53 @@
+{
+  "name": "rollup-plugin-niceprogressbar",
+  "version": "0.1.0",
+  "description": "Rollup Progress Bar Plugin",
+  "author": "Gwynne Raskind",
+  "license": "MIT",
+  "keywords": [
+    "rollup",
+    "plugin",
+    "progress",
+    "progressbar",
+    "rollup-plugin"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gwynne/rollup-plugin-niceprogressbar.git"
+  },
+  "type": "module",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "rollup -c rollup.config.ts",
+    "prepack": "npm run build",
+    "watch": "rollup -c rollup.config.ts --watch",
+    "test": "NODE_OPTIONS='--experimental-vm-modules --no-warnings' jest"
+  },
+  "peerDependencies": {
+    "rollup": "^4.59.0"
+  },
+  "devDependencies": {
+    "@jest/globals": "^30.3.0",
+    "@rollup/plugin-node-resolve": "^16.0.3",
+    "@rollup/plugin-swc": "^0.4.0",
+    "@types/jest": "^30.0.0",
+    "@types/node": "^25.3.2",
+    "jest": "^30.3.0",
+    "rollup": "^4.59.0",
+    "rollup-plugin-dts": "^6.4.0",
+    "ts-jest": "^29.4.6",
+    "typescript": "^6.0.1-rc"
+  },
+  "overrides": {
+    "glob": ">=13.0.0",
+    "typescript": "$typescript"
+  }
+}
