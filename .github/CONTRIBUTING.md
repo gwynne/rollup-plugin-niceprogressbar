@@ -1,0 +1,1 @@
+It's pretty straightforwad: Open PRs, and I will do my best to review them in a timely fashion, although I can make no promises. Please do not use AI to create your submissions; they will be rejected regardless of quality.
