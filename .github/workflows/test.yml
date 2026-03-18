@@ -18,5 +18,7 @@ jobs:
           node-version: 24
           cache: npm
       - run: npm ci
-      - run: npm test
-
+      - run: NODE_OPTIONS='--experimental-vm-modules --no-warnings' npx jest --coverage
+      - uses: codecov/codecov-action@671740ac38dd9b0130fbe1cec585b89eea48d3de # v5.5.2
+        with:
+          token: ${{ secrets.CODECOV_TOKEN }}
