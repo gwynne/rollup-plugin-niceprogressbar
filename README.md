@@ -1,6 +1,6 @@
 # rollup-plugin-niceprogressbar
 
-[![npm version](https://img.shields.io/npm/v/rollup-plugin-niceprogressbar?logo=npm)](https://npmjs.com/packages/rollup-plugin-niceprogressbar)
+[![npm version](https://img.shields.io/npm/v/rollup-plugin-niceprogressbar?logo=npm)](https://npmjs.com/package/rollup-plugin-niceprogressbar)
 [![downloads](https://img.shields.io/npm/dm/rollup-plugin-niceprogressbar?logo=npm)](https://www.npmjs.com/package/rollup-plugin-niceprogressbar)
 [![rollup](https://img.shields.io/npm/dependency-version/rollup-plugin-niceprogressbar/peer/rollup?logo=rollup.js&label=rollup)](https://www.npmjs.com/package/rollup)
 [![ci](https://img.shields.io/github/actions/workflow/status/gwynne/rollup-plugin-niceprogressbar/test.yml?logo=github)](https://github.com/gwynne/rollup-plugin-niceprogressbar/actions/test.yml)
