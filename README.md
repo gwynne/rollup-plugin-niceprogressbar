@@ -1,5 +1,7 @@
 # rollup-plugin-niceprogressbar
 
+<div align="center">
+
 [![npm version](https://img.shields.io/npm/v/rollup-plugin-niceprogressbar?logo=npm)](https://npmjs.com/package/rollup-plugin-niceprogressbar)
 [![downloads](https://img.shields.io/npm/dm/rollup-plugin-niceprogressbar?logo=npm)](https://www.npmjs.com/package/rollup-plugin-niceprogressbar)
 [![rollup](https://img.shields.io/npm/dependency-version/rollup-plugin-niceprogressbar/peer/rollup?logo=rollup.js&label=rollup)](https://www.npmjs.com/package/rollup)
@@ -7,6 +9,7 @@
 [![code coverage](https://img.shields.io/codecov/c/github/gwynne/rollup-plugin-niceprogressbar?logo=codecov)](https://codecov.io/gh/gwynne/rollup-plugin-niceprogressbar)
 [![license](https://img.shields.io/badge/license-MIT-skyblue?logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMjggMTI4Ij48cGF0aCBmaWxsPSJza3libHVlIiBkPSJtNzAuNSwxMS41YzAtMy45LTEyLTMuOS0xMiwwdjEwYy01LjIsMC0yMC4zLDgtMjQuNCw4aC0xOC40Yy03LjEsMC04LjEsMTMuOSwzLjUsMTJsLTE2LjksMzguM2MtMy41LDYuOSwxMi41LDE0LDIyLjksMTQsMTEuOCwwLDI1LjktNy4xLDIyLjktMTRsLTE2LjctMzguM2M1LjYsMCwxOC40LTcuOCwyNy4xLTh2NzYuOGgtMjBjLTMuOSwwLTMuOSwxMiwwLDEyaDUyYzQsMCw0LTEyLDAtMTJoLTIwdi03Ni44YzkuMy0uMSwyMS4yLDgsMjcuNCw4bC0xNi45LDM4LjNjLTIuNyw2LDExLjYsMTQsMjIuOSwxNCwxMS44LDAsMjYuMi02LjUsMjIuOS0xNGwtMTYuOS0zOC4zYzEyLjQsMS4yLDExLjUtMTIsMy41LTEyaC0xOC40YzAsMC0xOS04LTI0LjUtOHptMzIuOSw0NC43LDEwLjQsMjRjLTUuOCwzLjItMTUsMy4yLTIwLjgsMHptLTc3LjcsMCwxMC40LDI0Yy01LjgsMy4yLTE1LDMuMi0yMC44LDAiLz48L3N2Zz4K)](LICENSE)
 
+</div>
 
 Displays a progress bar indicating the current progress of the rollup build in progress, or an indeterminate progress bar if the progress isn't currently known.
 
