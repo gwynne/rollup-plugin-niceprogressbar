@@ -1,5 +1,5 @@
-import { afterEach, beforeEach, describe, expect, it, jest } from "@jest/globals";
 import type rollup from "rollup";
+import { beforeEach, describe, expect, it, vi } from "vitest";
 import { ProgressDrawingMode, progressbar } from "../src/index.js";
 
 describe("baseline", () => {
@@ -7,10 +7,6 @@ describe("baseline", () => {
         process.stdout.isTTY = true;
         process.stdout.columns = 100;
         process.stdout.rows = 24;
-    });
-
-    afterEach(() => {
-        jest.restoreAllMocks();
     });
 
     it("returns a plugin", () => {
@@ -23,7 +19,7 @@ describe("baseline", () => {
     });
 
     it("outputs things", () => {
-        const spy = jest.spyOn(process.stdout, "write");
+        const spy = vi.spyOn(process.stdout, "write");
         const bar = progressbar({ mode: ProgressDrawingMode.NerdFontProgressGlyphs });
 
         (bar.buildStart as ({ handler: (this: rollup.PluginContext, options: rollup.NormalizedInputOptions) => void | Promise<void>; order?: "pre" | "post" | null; sequential?: boolean; })).handler.call({} as rollup.PluginContext, { input: ["index.ts"] } as rollup.NormalizedInputOptions);
